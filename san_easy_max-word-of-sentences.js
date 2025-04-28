@@ -19,7 +19,6 @@ function result(sentences) {
     if(wordCount > maxWord) {
       maxWord = wordCount;
     }
-    console.log(maxWord);
     return maxWord;
   }
 }
